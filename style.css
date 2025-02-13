@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+/* Hero Section */
+.hero {
+    background-size: cover;
+    background-position: center;
+}
+
+/* Country Cards */
+.country-card {
+    padding: 20px;
+    background: #f8f9fa;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Media Query */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 30px;
+    }
+}

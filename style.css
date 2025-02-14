@@ -20,6 +20,11 @@ body {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+
+section .py-10 px-5 text-center{
+    text-align: center;
+}
+
 /* Responsive Media Query */
 @media (max-width: 768px) {
     .hero h1 {
